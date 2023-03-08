@@ -139,3 +139,35 @@ body
 {
   transform: none;
 }
+
+/* photo and text */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper{
+  margin: 150px auto;
+  width: 70%;
+}
+
+.text-box{
+  color: #a117f2;
+}
+
+.text-box h1{
+  font-size: 42px;
+}
+
+.text-box p{
+  font-size: 22px;
+}
+img{
+  max-width: 320px;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  margin: 15px;
+}
